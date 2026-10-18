@@ -6,7 +6,7 @@ export default function Page() {
       </div>
       <section>
       <h2 className="t">About</h2>
-      <p>I am a geotechnical engineer with experience in both industry and research. I work as Senior Geotechnical Engineer and Project Manager at PT Solusi Geotek Optima, where I lead analysis, design and review of tailings storage facilities, heap leach pads, slopes, foundations and underground structures using numerical models (RS2, RS3, PLAXIS, GeoStudio).</p>
+      <p>I am a geotechnical engineer with experience in both industry and research. I work as a Geotechnical Engineer at PT Solusi Geotek Optima, where I lead analysis, design and review of tailings storage facilities, heap leach pads, slopes, foundations and underground structures using numerical models (RS2, RS3, PLAXIS, GeoStudio).</p>
       <p>I completed my MSc at Institut Teknologi Bandung (ITB) in one year through its fast-track programme. I have since continued research at ITB and assisted graduate courses in geotechnical engineering.</p>
       <p>I am applying for PhD positions in geotechnical engineering and welcome conversations with prospective supervisors and scholarship committees.</p>
       </section>

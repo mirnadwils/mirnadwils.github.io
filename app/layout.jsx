@@ -21,12 +21,13 @@ export default function RootLayout({ children }) {
           <aside>
 <img src={`${base}/photo.jpg`} alt="Portrait of Mirna Dwi Lestari Salamah" />
 <h2>Mirna Dwi Lestari Salamah</h2>
-<p>Senior Geotechnical Engineer &amp; Project Manager</p>
+<p>Geotechnical Engineer</p>
 <ul>
 <li>PT Solusi Geotek Optima</li>
 <li>Bandung, Indonesia</li>
 <li><a href="mailto:mirnadwi67@gmail.com">Email</a></li>
 <li><a href="https://www.linkedin.com/in/mirna-dwi-lestari-salamah-5b2533344/">LinkedIn</a></li>
+<li><a href="https://scholar.google.com/citations?user=U9LUjQYAAAAJ&hl=id&oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
 <li><a href="https://doi.org/10.3390/geotechnics6010023">Geotechnics (MDPI) paper</a></li>
 </ul>
 </aside>

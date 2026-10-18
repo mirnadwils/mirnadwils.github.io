@@ -5,6 +5,7 @@ export default function Page() {
     <>
       <section>
       <h2 className="t">Publications</h2>
+      <p className="scholar-link">View full publication list on <a href="https://scholar.google.com/citations?user=U9LUjQYAAAAJ&hl=id&oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a></p>
       <ol className="pubs">
       <li><span className="y">2026</span><span><span className="tag">Journal</span><b>Salamah, M. D. L.</b>, Jitno, H., Lestari, I. F., Marsa, N. A. I., &amp; Hanjani, A. Characterization and shear strength evaluation of sensitive volcanic residual soils in West Java. <i>Indonesian Geotechnical Journal</i>, 5(1). <a href="https://doi.org/10.56144/igj.v5i1.144">DOI</a></span></li>
       <li><span className="y">2026</span><span><span className="tag">Journal</span>Basarah, Y. I., <b>Salamah, M. D. L.</b>, Irsyam, M., Apriadi, D., Susila, E., Krisnanto, S., &amp; Marvel, J. Interpreting the undrained shear strength of soft clays using CPTu: evaluation of cone bearing factor (Nkt) and related practical soil parameters at selected sites in Western Java. <i>Geotechnics</i>, 6(1), 23. <a href="https://doi.org/10.3390/geotechnics6010023">DOI</a></span></li>
