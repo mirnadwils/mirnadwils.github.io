@@ -5,8 +5,8 @@ import { usePathname } from "next/navigation";
 const items = [
   ["/", "Home"],
   ["/research/", "Research"],
-  ["/field/", "Field & Numerical"],
-  ["/experience/", "Experience"],
+  ["/experience/", "Geotechnical Experience"],
+  ["/research-ideas/", "Research Ideas"],
   ["/teaching/", "Teaching"],
 ];
 
@@ -17,7 +17,18 @@ export default function Nav() {
     <nav className="nav" aria-label="Pages">
       <div>
         {items.map(([href, label]) => (
-          <Link key={href} href={href} className={cur === href ? "on" : undefined}>{label}</Link>
+          <Link
+            key={href}
+            href={href}
+            className={
+              cur === href ||
+              (href === "/experience/" && cur === "/field/")
+                ? "on"
+                : undefined
+            }
+          >
+            {label}
+          </Link>
         ))}
       </div>
     </nav>
